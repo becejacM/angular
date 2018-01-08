@@ -1,0 +1,39 @@
+<div class="mainContainer">
+  <div class="container">
+    <div class="col-sm-6 col-sm-offset-6">
+      <div class="col-md-12 col-md-offset-3" id="logreg">
+        <form id="addForm" class="form-horizontal" role="form" [formGroup]="addForm" (ngSubmit)=add(addForm.value)>
+          <div style="margin-bottom: 25px" class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+            <input type="text" class="form-control" name="name" [(ngModel)]="name" formControlName="name" placeholder="{{ 'Username' | translate }}">
+          </div>
+          <div style="margin-bottom: 25px" class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+            <input type="text" class="form-control" name="Email" [(ngModel)]="email" formControlName="email" placeholder="{{ 'Email' | translate }}">
+          </div>
+          <div style="margin-bottom: 25px" class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+            <input type="password" class="form-control" name="password" [(ngModel)]="password" formControlName="password" placeholder="{{ 'Password' | translate }}">
+          </div>
+          <div style="margin-bottom: 25px" class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+            <input type="password" class="form-control" name="repeatedPassword" [(ngModel)]="repeatedPassword" formControlName="repeatedPassword"
+            placeholder="{{ 'RPass' | translate }}">
+          </div>
+          <div style="margin-top:10px" class="form-group">
+              <div class="col-sm-12 controls">
+          <input type="submit" class="btn btn-info" value="{{ 'Register' | translate }}" [disabled]="!addForm.valid">
+         </div>
+         </div>
+          <div class="form-group">
+              <div class="col-md-12 control">
+                  <div style="border-top: 1px solid#888; padding-top:15px; font-size:85%">
+                      <span translate>MessageRegister</span>&nbsp;&nbsp;&nbsp;<a routerLink="/api/login" translate>SignInHere</a>
+                  </div>
+              </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,92 @@
+.block {
+    display: inline-block;
+    height: 100%;
+    width:100%;
+  }
+
+  
+  .adding {
+    margin-left: 3%;
+    margin-top: 5%;
+    width : 60%;
+  
+  }
+  
+  .added{
+    margin-right: 2%;
+    margin-top: 5%;  
+    float: right;
+    width:35%;
+  }
+  .btn-sq-xs {
+    height: 25px !important;
+    width: 25px !important;
+    font-size: 10px;
+    margin-left: 2px;
+    padding: 0px;
+  }
+
+  #checkoutDiv {
+    color: white;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    margin-left: 25%;
+    margin-top: 5%;
+    width: 50%;
+    background-color: rgba(34, 33, 33, 0.5);
+    
+      
+  }
+
+  .addres {
+    display: inline-block;
+    width:100%;
+  }
+  
+  .pay {
+    width : 45%;
+  
+  }
+  
+  .deliver{
+    float: right;
+    width:45%;
+  }
+  
+  #myTable, #compListTable{
+    left:5%;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #000000;
+    font-size: 18px;
+    background-color: #ffffff
+    
+  }
+  
+  #myTable th,#compListTable th, #myTable td, #compListTable td {
+    text-align: center;
+    padding: 12px;
+  }
+
+  #myTable tr, #compListTable tr {
+    border-bottom: 1px solid #010702;
+  }
+  
+  #myTable tr.header, #compListTable tr.header{
+    background-color: rgba(135, 206, 235, 1);
+  }
+  
+  #myTable tr:not(.header):hover, #compListTable tr:not(.header):hover{
+    background-color: rgba(106, 195, 211, 0.51);
+  }
+
+  .row{
+    text-align: center;
+    padding: 12px;
+  }
+
+  .components{
+    margin-top: 1%;
+    margin-left: 3%;
+    width:65%;
+  }

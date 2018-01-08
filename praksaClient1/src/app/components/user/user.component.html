@@ -1,0 +1,50 @@
+<div class="container mainContainer" style="padding-top:30px">
+    <div class="mainbox col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <div class="panel-title" translate>UpdateProfile</div>
+            </div>
+            <div style="padding-top:30px" class="panel-body">
+                <form id="updateForm" class="form-horizontal" role="form" [formGroup]="updateForm" (ngSubmit)=updateProfile(updateForm.value)>
+                    <div style="margin-bottom: 25px" class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                        <input type="text" class="form-control" name="username"  formControlName="username" placeholder="{{ 'Username' | translate }}" readonly>
+                    </div>
+                    <div style="margin-bottom: 25px" class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                        <input type="email" class="form-control" name="email"  formControlName="email" placeholder="{{ 'Email' | translate }}">
+                    </div>
+                    <input type="submit" class="btn btn-primary" value="{{ 'Confirm' | translate }}" [disabled]="!updateForm.valid">
+                </form>
+            </div>
+            <hr/>
+        </div>
+    </div>
+</div>
+<div class="container mainContainer">
+    <div class="mainbox col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <div class="panel-title" translate>ChangePassword</div>
+            </div>
+            <div style="padding-top:30px" class="panel-body">
+                <form id="changePasswordForm" class="form-horizontal" role="form" [formGroup]="changePasswordForm" (ngSubmit)=changePassword(changePasswordForm.value)>
+                    <div style="margin-bottom: 25px" class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                        <input type="password" class="form-control" name="oldPassword" [(ngModel)]="oldPassword" formControlName="oldPassword" placeholder="{{ 'OPassword' | translate }}">
+                    </div>
+                    <div style="margin-bottom: 25px" class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                        <input type="password" class="form-control" name="newPassword" [(ngModel)]="newPassword" formControlName="newPassword" placeholder="{{ 'NPassword' | translate }}">
+                    </div>
+                    <div style="margin-bottom: 25px" class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                        <input type="password" class="form-control" name="repeatNewPassword" [(ngModel)]="repeatNewPassword" formControlName="repeatNewPassword"
+                            placeholder="{{ 'RPass' | translate }}">
+                    </div>
+                    <input type="submit" class="btn btn-info" value="{{ 'Confirm' | translate }}" [disabled]="!changePasswordForm.valid">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

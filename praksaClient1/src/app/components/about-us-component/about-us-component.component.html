@@ -1,0 +1,20 @@
+<div class="mask">
+    <div class="main">
+        <div class="content">
+            <span translate>Description</span><br/><br/><span translate>Contact</span>: 021/533-456<br/> <span translate>Address</span>:
+            <br/>
+            <a (click)="changeLocation(45.257239,19.844366)">Trifkovicev trg 6, 21000 Novi Sad</a>
+            <br/>
+            <a (click)="changeLocation(45.245715,19.851624)">Trg Dositeja Obradovica 6, 21000 Novi Sad</a>
+            <br/>
+            <a (click)="changeLocation(44.774673,20.457317)">Mladena Stojanovica 5, 11040 Beograd</a>
+            <br/>
+        </div>
+    </div>
+    <div class="map">
+        <sebm-google-map [zoom]="15" [latitude]="lat" [longitude]="lng">
+            <sebm-google-map-marker [latitude]="lat" [longitude]="lng">
+            </sebm-google-map-marker>
+        </sebm-google-map>
+    </div>
+</div>

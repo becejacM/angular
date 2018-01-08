@@ -1,0 +1,15 @@
+#logreg{
+	position: center;
+	top: 20%;
+	left: 45%;
+}
+
+.mainContainer{
+	padding-top: 3%;
+	padding-bottom: 3%;
+	margin-left: 25%;
+    margin-top: 5%;
+    width: 50%;
+	background-color: rgba(34, 33, 33, 0.5);
+}
+	

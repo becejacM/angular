@@ -1,0 +1,110 @@
+{
+    "Picture": "Picture",
+    "Name": "Name",
+    "Type": "Type",
+    "Manufacturer": "Manufacturer",
+    "Quantity": "Quantity",
+    "Price": "Price",
+    "Options": "Options",
+
+    "Change": "Change",
+    "Delete": "Delete",
+    "Activate": "Activate",
+    "More": "More",
+
+    "Search": "Search",
+    "AddNew": "New component",
+    "Update": "Update",
+    "NT": "New type",
+    "NewManufacturer": "New manufacturer",
+
+    "User": "User",
+    "Text": "Text",
+    "messageComments": "This component doesn't have comments!",
+    "newComment": "Add new comment",
+
+    "Component": "Component",
+
+    "ADD": "ADD",
+
+    "Exist": "Exist",
+    "To": "To",
+    "From": "From",
+    "Reset": "Reset",
+
+    "AddNewComponent": "Add new component",
+    "UpdateComponent": "Update component",    
+    "NM": "Add new manufacturer",
+    "AddNewType": "Add new Type",
+
+    "Cardinality": "Cardinality",
+    
+    "Add": "Add",
+
+    "manu": "Manufacturer",
+
+    "MyConfigurations": "My configurations",
+    "AddNewNonfiguration": "Add new configuration",
+    "AllConfigurations": "All configurations",
+
+    "Checkout": "Checkout",
+    "Paid": "Paid",
+    "Delivered": "Delivered",
+
+    "NewConfiguration" : "New configuration",
+    "UpdateConfiguration": "Update configuration",
+    "ChooseType": "Chose type of component",
+
+    "AddedComponents": "Added components",
+    "AddConfiguration": "add configuration",
+
+    "AddressForFelivery": "Address for delivery",
+    "AddressForPaying": "Address for paying",
+    "MethodOfPayment": "Method of paying",
+    "Cancel": "Cancel",
+
+    "PaymentToAccount": "Payment to account",
+    "CreditCard": "Credit card",
+    "MoneyOnDelivery": "Money on delivery",
+
+    "Address": "Address",
+    "Contact": "Contact",
+    "Description": "We are company...",
+
+    "MessageLogin": "Don't have an account?!",
+    "SignUp": "Sign up here",
+
+    "Components": "Components",
+    "Configurations": "Configurations",
+    "EditProfile": "Edit Profile",
+    "AboutUs": "About us",
+    "Logout": "Logout",
+    "SignIn": "Sign in",
+    "SignUpMain": "Sign up",
+
+    "UpdateProfile": "Update profile",
+    "ChangePassword": "Update password",
+    "MessageRegister": "Already have an account?!",
+    "SignInHere": "Sign in here",
+
+    "Password": "Password",
+
+    "End": "Delivered",
+    
+    "Username": "Username",
+    "RPass": "Repeated password",
+    "Email": "Email",
+
+    "Register": "Register",
+    "Login": "Login",
+    "OPassword": "Old Password",
+    "NPassword": "New Password",
+    "Confirm": "Confirm",
+
+
+    "Street": "Street",
+    "Country": "Country",
+    "Zip": "Zip code",
+    "City": "City"
+
+}

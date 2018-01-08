@@ -1,0 +1,99 @@
+#myTable {
+	left:5%;
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #000000;
+  font-size: 18px;
+  background-color: #ffffff
+  
+}
+
+#myTable th, #myTable td {
+  text-align: center;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #010702;
+}
+
+#myTable tr.header {
+  background-color: rgba(135, 206, 235, 1);
+}
+
+#myTable tr:not(.header):hover {
+  background-color: rgba(106, 195, 211, 0.51);
+}
+
+
+.wrapper {
+  display: inline-block;
+  white-space: nowrap;
+  width: 100%;
+
+}
+
+.block {
+  
+  display: inline-block;
+  white-space: normal;
+  vertical-align: middle;
+  text-align:center;
+  height: 100%;
+  width:100%;
+}
+
+.search {
+  background-color: rgba(34, 33, 33, 0.5);
+  float: right;
+  margin-right: 2%;
+  margin-top: 3%;
+  width : 25%;
+  color: white
+
+}
+
+.components{
+  margin-top: 3%;
+  margin-left: 3%;
+  width:65%;
+}
+
+.aboutComments{
+  background-color: rgba(106, 195, 211, 0.51);
+}
+
+.textArea{
+  width: 50%;
+  margin-left: 25%;
+
+}
+
+.btn-sq-xs {
+  height: 25px !important;
+  width: 25px !important;
+  font-size: 10px;
+  margin-left: 2px;
+  padding: 0px;
+}
+.formElements{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#leftForm{
+  margin-left: 35%;  
+  width: 35%;
+}
+
+#rightForm{
+  margin-left: 35%;
+  width: 35%;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,44 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-muted rounded" style="background-color: #000508;">
+    <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/api/components" translate>Components</a>
+        </li>
+        <li class="nav-item" *ngxPermissionsOnly="['[ADMIN]', '[USER]']">
+            <a class="nav-link" routerLink="/api/configurations" translate>Configurations</a>
+        </li>
+    </ul>
+    <span>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item" *ngxPermissionsOnly="['[ADMIN]', '[USER]']">
+                <a class="nav-link" routerLink="/api/users" translate>EditProfile</a>
+            </li>
+            <li class="nav-item" style="display: inline-block">
+                <a class="nav-link" (click)="switchLanguage('en')">
+                    <img class="icon" src="http://data.whicdn.com/images/115105421/large.jpg">
+                </a>
+            </li>
+            <li class="nav-item" style="display: inline-block">
+                <a class="nav-link" (click)="switchLanguage('srb')">
+                    <img class="icon" src="http://data.whicdn.com/images/33055761/large.jpg">
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/api/about-us" translate>AboutUs</a>
+            </li>
+            <li class="nav-item" *ngxPermissionsOnly="['[ADMIN]', '[USER]']">
+                <a class="nav-link" (click)="logoutf()" routerLink="/api/login" translate>Logout</a>
+            </li>
+            <li class="nav-item" *ngxPermissionsExcept="['[ADMIN]', '[USER]']">
+                <a class="nav-link" routerLink="/api/login" translate>SignIn</a>
+            </li>
+            <li class="nav-item" *ngxPermissionsExcept="['[ADMIN]', '[USER]']">
+                <a class="nav-link" routerLink="/api/registration" translate>SignUpMain</a>
+            </li>
+
+        </ul>
+    </span>
+</nav>
+
+<span class="wrapper">
+    <div *ngIf="uslov; else cao"></div>
+    <ngx-flash-messages class="flash-message"></ngx-flash-messages>

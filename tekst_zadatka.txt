@@ -1,0 +1,41 @@
+Tekst zadatka 
+
+Napraviti Spring Boot Java web aplikaciju koja omogucava administraciju racunarskih komponenti i sastavljanje konfiguracije.
+
+Funkcionalnosti koje aplikacija treba da podrži: 
+
+Ucitavanje šifarnika komponenti i upis u bazu podataka. Šifarnik komponenti sadrži vrste komponenti kao što su maticna ploca, procesor, kucište, štampac itd. 
+Za svaku vrstu komponente definisana je vrednost koliko komponenti te vrste korisnik može da izabere u konfiguratoru. Ta vrednost može da bude: 
+• 0 – komponenta je opciona i korisnik može da izabere samo jednu. 
+• 1 – komponenta je obavezna i korisnik može da izabere samo jednu. 
+• 0-n – komponenta je opciona, a korisnik može da izabere više od jedne. 
+• 1-n – komponenta je obavezna, a korisnik može da izabere više od jedne. 
+
+U import.sql scriptu se nalazi skup podataka koje je potrebno ucitati u bazu prilikom inicijalizovanja aplikacije. 
+
+Napraviti REST endpointe za unos novih komponenti u sistem. 
+Prilikom unosa nove komponente potrebno je uneti naziv komponente, šifru, vrstu komponente, kolicinu komponente i cenu po komadu. Sva polja moraju biti popunjena. 
+
+Napraviti REST endpointe za pretragu komponenti:
+ - po ceni (od - do)
+ - po tipu komponente
+ - na lageru ili ne
+ - sve konfiguracije jednog korisnika
+Pretrage se mogu kombinovati (npr. po tipu i da li je na lageru i sl.)
+Omoguciti paginaciju na pregled komponenti, tipova komponenti i konfiguracija.
+
+Za svaku komponentu potrebno je omoguciti opcije Izmeni i Obriši.
+Izborom opcije Izmeni, moguce je ažurirati kolicinu komponente i cenu, dok ostale atribute nije moguce menjati.
+Moguce je obrisati samo onu komponentu za koju je kolicina na lageru jednaka nuli.
+
+Dokumentovati REST API sa Swagger-om (http://heidloff.net/article/usage-of-swagger-2-0-in-spring-boot-applications-to-document-apis/, 
+									  http://www.baeldung.com/swagger-2-documentation-for-spring-rest-api)
+
+Pre svega osmisliti model podataka.
+
+Koristiti sledece tehnologije:
+ - Java 8
+ - Spring Boot
+ - Hibernate za ORM
+ - Spring Data
+ - Mockito za unit testing

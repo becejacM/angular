@@ -1,0 +1,16 @@
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .mainContainer{
+    padding-bottom: 3%;
+    padding-top: 3%;
+    margin-left: 25%;
+    margin-top: 5%;
+    width: 50%;
+    background-color: rgba(34, 33, 33,  0.5);
+  }
+    

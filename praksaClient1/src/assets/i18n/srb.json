@@ -1,0 +1,110 @@
+{
+    "Picture": "Slika",
+    "Name": "Ime",
+    "Type": "Tip",
+    "Manufacturer": "Proizvodjac",
+    "Quantity": "Kolicina",
+    "Price": "Cena",
+    "Options": "Opcije",
+
+    "Change": "Izmeni",
+    "Delete": "Obrisi",
+    "Activate": "Aktiviraj",
+    "More": "Vise",
+
+    "Search": "Pretraga",
+    "AddNew": "Nova komponenta",
+    "Update": "Izmena",
+    "NT" : "Novi tip",
+    "NewManufacturer": "Novi proizvodjac",
+
+    "User": "Korisnik",
+    "Text": "Tekst",
+    "messageComments": "Ova komponenta jos uvek nema komentare!",
+    "newComment": "Dodaj novi komentar",
+
+    "Component": "Komponenta",
+
+    "ADD": "DODAJ",
+
+    "Exist": "Postoji",
+    "To": "Do",
+    "From": "Od",
+    "Reset": "Reset",
+
+    "AddNewComponent": "Dodavanje nove komponente",
+    "UpdateComponent": "Izmena komponente",
+    "NM": "Dodavanje novog proizvodjaca",
+    "AddNewType": "Dodavanje novog tipa",
+
+    "Cardinality": "Kardinalitet",
+
+    "Add": "Dodaj",
+
+    "manu": "Proizvodjac",
+
+    "MyConfigurations": "Moje konfiguracije",
+    "AddNewNonfiguration": "Dodaj novu konfiguraciju",
+    "AllConfigurations": "Sve konfiguracije",
+
+    "Checkout": "Kupi",
+    "Paid": "Placeno",
+    "Delivered": "Dostavljeno",
+
+    "NewConfiguration" : "Nova konfiguracija",
+    "UpdateConfiguration": "Izmeni konfiguraciju",
+    "ChooseType": "Izaberi tip komponenti",
+
+    "AddedComponents": "Dodate komponente",
+    "AddConfiguration": "Dodaj konfiguraciju",
+
+    "AddressForFelivery": "Adresa dostave",
+    "AddressForPaying": "Adresa placanja",
+    "MethodOfPayment": "Metod placanja",
+    "Cancel": "Nazad",
+
+    "PaymentToAccount": "Placanje preko racuna",
+    "CreditCard": "Kreditna kartica",
+    "MoneyOnDelivery": "Placanje pouzecem",
+
+    "Address": "Adresa",
+    "Contact": "Kontakt",
+    "Description" : "Mi smo kompanija..",
+
+    "MessageLogin": "Nemas nalog?!",
+
+    "SignUp": "Registruj se ovde",
+
+    "Components": "Komponente",
+    "Configurations": "Konfiguracije",
+    "EditProfile": "Izmeni profil",
+    "AboutUs": "O nama",
+    "Logout": "Izloguj se",
+    "SignIn": "Uloguj se",
+    "SignUpMain": "Registruj se",
+
+    "UpdateProfile": "Izmena profila",
+    "ChangePassword": "Izmena sifre",
+    "MessageRegister": "Vec imas nalog?!",
+    "SignInHere": "Uloguj se ovde",
+
+    "Password": "Sifra",
+
+    "End": "Isporucena",
+    "Username": "Korisnicko ime",
+    "RPass": "Ponovljena sifra",
+    "Email": "Email",
+
+    "Register": "Registruj se",
+    "Login": "Uloguj se",
+    "OPassword": "Stara sifra",
+    "NPassword": "Nova sifra",
+    "Confirm": "Potvrdi",
+
+    "Street": "Ulica",
+    "Country": "Drzava",
+    "Zip": "Postanski broj",
+    "City": "Grad"
+
+}
+
